@@ -19,3 +19,11 @@ p.mission {
 section h2.as-subheading {
   margin-bottom: 75px;
 }
+
+.modal-body h2 {
+  text-transform: none;
+}
+
+.portfolio-modal .modal-content .modal-body .modal-details {
+  text-align: left;
+}
