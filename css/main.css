@@ -27,3 +27,24 @@ section h2.as-subheading {
 .portfolio-modal .modal-content .modal-body .modal-details {
   text-align: left;
 }
+
+header {
+  background-image: url('../img/logo.png');
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: #333;
+  }
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+}
