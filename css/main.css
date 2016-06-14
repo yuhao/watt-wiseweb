@@ -36,15 +36,23 @@ header {
   .navbar-default {
     background-color: #333;
   }
-  header .intro-text {
-    padding-top: 300px;
+  header {
+    padding-top: 350px;
     padding-bottom: 350px;
   }
 }
 
 @media (max-width: 768px) {
-  header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 150px;
+  header {
+    padding-top: 550px;
+    background-image: url('../img/logo-small.png');
   }
 }
+
+@media (min-width: 2560px) {
+  header {
+    padding-top: 750px;
+    padding-bottom: 750px;
+  }
+}
+
