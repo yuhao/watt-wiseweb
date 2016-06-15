@@ -6,10 +6,6 @@ p.mission {
   font-size: 25px;
 }
 
-.timeline > li .timeline-image .js-logo {
-  background-color: #fed136;
-}
-
 @media (min-width: 1024px) {
   .team-member .role {
     margin-top: 75px;
